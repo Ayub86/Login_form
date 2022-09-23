@@ -11,15 +11,15 @@ const Home = () => {
       email: email,
       password: password,
     }
-    axios.post("https://reqres.in/api/register",data).then((res)=>console.log("----->",res.data))
+    axios.post("https://reqres.in/api/users?page=2",).then((res)=>console.log("----->",res.data))
     setEmail("");
     setPassword("");
     console.log("datasubmitted----->",data);
   }
   return (
     <>
-      
-        <form action='POST' onSubmit={handleSubmit}>
+       <div className="app">
+        <form action='' onSubmit={handleSubmit}>
           <p className="offscreen" aria-live="assertive"></p>
           <h1>Sign In</h1>
           
@@ -33,7 +33,7 @@ const Home = () => {
             <span className="line">
               <a href="/">Sign Up</a></span></p>
         </form>
-      
+        </div>
 
     </>
   )
