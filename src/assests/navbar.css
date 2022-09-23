@@ -1,0 +1,21 @@
+header{
+   
+    height: 80px;
+    background-color: antiquewhite;
+    padding: 10px 0px;
+   justify-content: flex-start;
+    
+}
+nav{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+li{
+   display: inline-block;
+   padding: 14px 32px;
+}
+ul li a{
+    text-decoration: none;
+}
