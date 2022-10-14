@@ -1,0 +1,29 @@
+header{
+   
+    height: 80px;
+    padding: 10px 0px;
+   justify-content: flex-start;
+   /* background: -webkit-linear-gradient(
+    right,
+    #a445b2,
+    #fa4299,
+    #a445b2,
+    #fa4299
+  );
+     */
+}
+nav{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+li{
+   display: inline-block;
+   padding: 14px 32px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
